@@ -5,13 +5,13 @@ import Product from "./Product";
 import bannerimg from "../images/banner3.jpg";
 import headset_img from "../images/headset_logtiech.jpg";
 import mouse_img from "../images/mouse_razer.jpg";
-import keybrd from '../images/keybrd.jpg';
-import lap from '../images/laptop.jpg';
-import phone from '../images/phone.jpg';
-import watch from '../images/watch.jpeg';
+import keybrd from "../images/keybrd.jpg";
+import lap from "../images/laptop.jpg";
+import phone from "../images/phone.jpg";
+import watch from "../images/watch.jpeg";
 import television from "../images/TV.jpg";
-import shoe from '../images/shoe.jpg';
-import chair from '../images/chair.jpg';
+import shoe from "../images/shoe.jpg";
+import chair from "../images/chair.jpg";
 
 function Home() {
 	return (
@@ -32,7 +32,7 @@ function Home() {
 					<Product
 						id={122320}
 						title="OnePlus Nord CE 2 5G (Gray Mirror, 8GB RAM, 128GB Storage)"
-						price={1350}
+						price={21500}
 						image={phone}
 						rating={5}
 						author="by OnePlus Store"
@@ -94,7 +94,7 @@ function Home() {
 					<Product
 						id={122329}
 						title="Razer DeathAdder Essential Gaming Mouse - Black"
-						price={1359}
+						price={1400}
 						image={mouse_img}
 						rating={5}
 						author="By Razer Store"
